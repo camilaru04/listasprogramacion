@@ -14,6 +14,10 @@ public class NodoDE {
     private Nodo siguiente;
     private Nodo anterior;
 
+    public NodoDE(Nodo anterior) {
+        this.anterior = anterior;
+    }
+
     public NodoDE(Infante dato) {
         this.dato = dato;
     }
@@ -40,6 +44,10 @@ public class NodoDE {
 
     public void setAnterior(Nodo anterior) {
         this.anterior = anterior;
+    }
+
+    void setSiguiente(NodoDE cabeza) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     
